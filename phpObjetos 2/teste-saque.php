@@ -8,7 +8,7 @@ require_once 'autoload.php';
 $conta = new ContaPoupanca(
     new Titular(
         new CPF('123.456.789-10'),
-        'Vinicius Dias',
+        'Raul Mota',
         new Endereco('Petrópolis', 'bairro Teste', 'Rua lá', '37')
     )
 );
